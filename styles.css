@@ -1,0 +1,176 @@
+/* Basic Reset & Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e6f7ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center; /* Align to the top */
+    min-height: 100vh; /* Ensure it takes full viewport height */
+    box-sizing: border-box;
+    
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px; /* Max width for better readability */
+    text-align: center;
+}
+
+.heading{
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    background-color: #0a3871;
+    color: #ffffff;
+    margin:100px;
+    padding:40px;
+    border-radius: 10px;
+}
+/* Header */
+header h1 {
+    color: #180d0d;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    display: flex;
+
+}
+
+/* Add Task Section */
+.add-task {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px; /* Space between input and button */
+}
+
+.add-task input[type="text"] {
+    flex-grow: 1; /* Allows input to take available space */
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none; /* Remove default focus outline */
+}
+
+.add-task input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+.add-task input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.add-task button,.delete {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add-task button:hover {
+    background-color: #0056b3;
+}
+
+/* Task List Section */
+.task-list ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute items horizontally */
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-item:last-child {
+    margin-bottom: 0; /* No margin below the last item */
+}
+
+.task-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.task-checkbox {
+    margin-right: 15px;
+    width: 20px; /* Make checkbox slightly larger */
+    height: 20px;
+    cursor: pointer;
+    flex-shrink: 0; /* Prevent checkbox from shrinking */
+}
+
+.task-description {
+    flex-grow: 1; /* Allows description to take available space */
+    text-align: left; /* Align text to the left within its space */
+    font-size: 1.1em;
+    color: #333;
+    word-break: break-word; /* Break long words */
+}
+
+.delete-task-button {
+    padding: 8px 12px;
+    background-color: #dc3545; /* Red color for delete */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-left: 15px; /* Space from description */
+    flex-shrink: 0; /* Prevent button from shrinking */
+}
+
+.delete-task-button:hover {
+    background-color: #c82333;
+}
+
+/* Completed Task Styling */
+.task-item.completed {
+    background-color: #e9ecef; /* Lighter background for completed tasks */
+}
+
+.task-item.completed .task-description {
+    text-decoration: line-through;
+    color: #888; /* Dimmed color for completed text */
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 3px black;
+}
+
+.taskName{
+    color:black;
+    font-size: 1.2rem;
+
+}
+
+.delete{
+    background-color:red;
+    display : none;
+}
+
+#completedHeading{
+    display: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+        <!--heading-->
+    <div class="heading">Let's Add Todo</div>
+        <!--container-->
+    <div class="container">
+        <!--container heading-->
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+        <!--add Task-->
+
+        <!--Todos Container-->
+        <section class="add-task">
+            <input type="text" id="new-task-input" placeholder="Add a new task...">
+            <button id="add-task-button">Add Task</button>
+        </section>
+
+        <section class="task-list">
+            <!--Displays Todos-->
+            <ul id="tasks-container">
+                </ul>
+        </section>
+
+        <!--Completed Todos Container-->
+        <section class="completedTasksContainer">
+            <h2 id = "completedHeading">Completed Tasks</h2>
+            <!--Displays Completed Todos-->
+            <ul id="completed-tasks-container">
+            </ul>
+        </section>
+    </div>  
+
+    <script src="script.js"></script>
+
+</body>
+</html>
