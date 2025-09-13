@@ -1,12 +1,12 @@
-# project_2_todo
-
-## 📝 To-Do List Web App
+# 📝 To-Do List Web App
 
 This is a clean and interactive **To-Do List** web application built using **HTML, CSS, and JavaScript**. It allows users to add, complete, and delete tasks.
 
 ---
 
-### 🌟 Features
+## Live Demo:  https://manas-kalamkar.github.io/project_2_todo/
+
+## 🌟 Features
 
 * ✅ Add new tasks
 * ✅ Mark tasks as completed
@@ -16,7 +16,7 @@ This is a clean and interactive **To-Do List** web application built using **HTM
 
 ---
 
-### 💻 Tech Stack
+## 💻 Tech Stack
 
 * **HTML5** – Structure of the web app
 * **CSS3** – Custom styling and layout
@@ -26,7 +26,7 @@ This is a clean and interactive **To-Do List** web application built using **HTM
 ---
 
 
-### 🚀 How to Use
+## 🚀 How to Use
 
 1. Clone or download this repository.
 2. Open `index.html` in any modern browser.
@@ -35,7 +35,7 @@ This is a clean and interactive **To-Do List** web application built using **HTM
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
 
 ```
 📁 To-Do-App/
@@ -46,7 +46,7 @@ This is a clean and interactive **To-Do List** web application built using **HTM
 
 ---
 
-### 🖌️ Custom Styling
+## 🖌️ Custom Styling
 
 * Background includes soft gradients and modern shadows.
 * Task cards are responsive and interactive.
@@ -56,7 +56,7 @@ This is a clean and interactive **To-Do List** web application built using **HTM
 
 
 
-### 🧠 Future Improvements
+## 🧠 Future Improvements
 
 * Drag-and-drop task sorting
 * Task categories or labels
@@ -67,7 +67,7 @@ This is a clean and interactive **To-Do List** web application built using **HTM
 
 ---
 
-### 📃 License
+## 📃 License
 
 This project is open-source and free to use for learning or personal projects.
 
